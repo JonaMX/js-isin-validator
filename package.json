@@ -1,0 +1,31 @@
+{
+  "name": "js-isin-validator",
+  "version": "1.0.0",
+  "description": "International Securities Identification Number (ISIN) Validator",
+  "main": ".dist/index.js",
+  "author": "Jonatan Juarez",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/nyc --reporter=lcov --reporter=text-summary ./node_modules/.bin/jasmine",
+    "build": "./node_modules/.bin/babel lib --out-dir dist --source-maps inline --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonaMX/js-isin-validator.git"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "coveralls": "^3.0.9",
+    "jasmine": "^3.5.0",
+    "nyc": "^14.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/JonaMX/js-isin-validator/issues"
+  },
+  "homepage": "https://github.com/JonaMX/js-isin-validator"
+}
