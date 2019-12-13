@@ -1,6 +1,6 @@
 {
   "name": "js-isin-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "International Securities Identification Number (ISIN) Validator",
   "main": ".dist/index.js",
   "author": "Jonatan Juarez",
@@ -27,5 +27,17 @@
   "bugs": {
     "url": "https://github.com/JonaMX/js-isin-validator/issues"
   },
-  "homepage": "https://github.com/JonaMX/js-isin-validator"
+  "homepage": "https://github.com/JonaMX/js-isin-validator",
+  "keywords": [
+    "validator",
+    "validation",
+    "isin",
+    "jonamx",
+    "jonatanjuarez",
+    "ramda",
+    "international",
+    "securities",
+    "identification",
+    "number"
+  ]
 }
