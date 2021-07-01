@@ -1,6 +1,6 @@
 {
   "name": "js-isin-validator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "International Securities Identification Number (ISIN) Validator",
   "main": "dist/index.js",
   "author": "Jonatan Juarez",
