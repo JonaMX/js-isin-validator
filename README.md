@@ -52,3 +52,7 @@ const countries = validator.countries;
 ##### 1.0.4
 
   - Allow lowercase ISINs
+
+##### 1.0.5
+
+  - Include missing dist/index.js updated
