@@ -22,4 +22,9 @@ describe('isIsinValid', () => {
     const isin = 'US38259P5089';
     expect(subject.isIsinValid(isin)).toBe(true);
   });
+
+  it('success when given isin in is valid in lowercase', () => {
+    const isin = 'us21925y1038';
+    expect(subject.isIsinValid(isin)).toBe(true);
+  });
 });

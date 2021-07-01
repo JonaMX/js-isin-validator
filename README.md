@@ -35,3 +35,20 @@ const checkDigit = validator.calcIsinCheckDigit(isin);
 // Get the list of the valid countries
 const countries = validator.countries;
 ```
+## Changelog
+
+##### 1.0.0
+
+  - Initial commit
+##### 1.0.1
+
+  - Add Travis config
+##### 1.0.2
+
+  - Fix entrypoint
+##### 1.0.3
+
+  - Add International Securities country code
+##### 1.0.4
+
+  - Allow lowercase ISINs
