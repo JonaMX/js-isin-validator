@@ -56,3 +56,8 @@ const countries = validator.countries;
 ##### 1.0.5
 
   - Include missing dist/index.js updated
+
+##### 1.0.6
+
+  - Update dependencies
+  - Fix issue [Module not found: Error: Can't resolve '../data/countries'](https://github.com/JonaMX/js-isin-validator/issues/14)
